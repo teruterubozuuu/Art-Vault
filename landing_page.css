@@ -1,49 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Lilita+One&family=Micro+5&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Rowdies:wght@300;400;700&display=swap');
 body{
     box-sizing: border-box;
     margin:0;
     padding:0;
-    background-color:#664840;
+    background-color:#fafafa;
     font-family:'Poppins',sans-serif;
-    color:rgb(255, 255, 255);
+    color:#724949;
+    overflow:hidden;
 }
 
 header{
-    background-color:#664840;
     color:#F2B705;
     display:flex;
-    height:12vh;
+    height:13vh;
     font-size:23px;
+    background-color:#724949;
+}
+
+header img{
+    width:96px;
+    height:96px;
+    margin-top:6px;
+    margin-left:50px;
+    margin-right:-50px;
 }
 
 header h1{
+    font-size:50px;
+    margin-top:30px;
     margin-left:50px;
+    font-family:"Rowdies",sans-serif;
+    text-shadow:3px 3px #ca6303;
+
 }
 
 span{
-    color:#F2B705;
+    font-family:"Rowdies",sans-serif;
+    color: #F2B705;
+    text-shadow:3px 3px #ca6303;
+    font-size:70px;
 }
 
 header button{
+    font-family:'Poppins', sans-serif;
     font-size:15px;
     display:flex;
     border-radius: 20px;
     border:none;
     position:absolute;
     right:50px;
-    padding:15px 50px;
+    padding:17px 50px;
     margin:30px 0;
     background-color: #F2B705;
-    color:#664840;
+    box-shadow:3px 3px #ca6303;
+    color:#81574b;
     cursor:pointer;
 }
 
-.content{
-    margin-top:6%;
-    margin-left:50px;
-    font-size:35px;
-    justify-content: start;
+header button:hover{
+    background-color: rgb(230, 168, 0);
+    box-shadow:3px 3px #ca6303;
+    color:#81574b;
+    cursor:pointer;
 }
+
+.graphics{
+    position:absolute;
+    z-index:-1;
+    top:299px
+}
+
+img.graphic1{
+    top:-175px;
+    left:-100px;
+    margin:0;
+    position:relative;
+}
+
+img.graphic2{
+    top:157px;
+    left:48%;
+    margin:0;
+    position:relative;
+}
+
+img.graphic3{
+    top:-330px;
+    right:-400px;
+    margin:0;
+    position:relative;
+}
+
+
+img.graphic4{
+    margin:0;
+    top:-200px;
+    position:relative;
+}
+
+hr{
+    margin-top:1.2%;
+    width:60%;
+    border:none;
+    height:5px;
+    background-color: rgb(230, 168, 0);
+}
+
+
+.content{
+    margin:auto;
+    justify-content: start;
+    text-align: center;
+    margin-top:10%;
+}
+
+.img{
+    position:absolute;
+    top:30%;
+    right:29%;
+}
+
 
 .content h1{
     margin-bottom:-15px;
@@ -60,8 +137,17 @@ header button{
     border:none;
     padding:15px 50px;
     background-color: #F2B705;
-    color:#664840;
+    box-shadow:3px 3px #ca6303;
+    color:#81574b;
     font-family:'Poppins',sans-serif;
+    cursor:pointer;
+    margin-right:10px;
+}
+
+#signupBtn:hover{
+    background-color: rgb(230, 168, 0);
+    box-shadow:3px 3px #ca6303;
+    color:#81574b;
     cursor:pointer;
 }
 
@@ -71,7 +157,8 @@ header button{
     border:none;
     padding:15px 70px;
     background-color: #F2B705;
-    color:#664840;
+    box-shadow:3px 3px #ca6303;
+    color:#81574b;
     font-family:'Poppins',sans-serif;
     cursor:auto;
 }
@@ -85,3 +172,9 @@ header button{
 #email-address:focus{
     outline:none;
 }
+
+/*#805b51*/
+
+/*#f2f4f3*/
+
+/*#664840*/
